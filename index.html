@@ -2,12 +2,16 @@
 <html>
 <head>
 	<title>TABLA DE MULTIPLICAR</title>
+	<script type="text/javascript" src="multiplicar.js"></script>
 </head>
 <body>
 	<center>
 		<h1>tabla de multiplicar</h1>
-		<input type="text" placeholder="ingrese numero"/><br>
-		<input type="submit" value="multiplicar"/>
+		<input type="text" id="numero" placeholder="ingrese numero"/><br>
+		<input type="submit" value="multiplicar" onclick="
+			var n = parseInt(document.getElementById('numero').value);
+			multiplicar(n);
+		"/>
 	</center>
 </body>
 </html>
