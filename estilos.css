@@ -16,3 +16,11 @@ input{
 	background: white;
 	color: black;
 }
+a{
+	color: white;
+	font-size: 30px;
+}
+a:hover{
+	background: white;
+	color: black;
+}
